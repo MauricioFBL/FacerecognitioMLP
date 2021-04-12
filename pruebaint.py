@@ -10,9 +10,7 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(506, 556))
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("ia.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
-        MainWindow.setWindowIcon(icon)
-        # MainWindow.setStyleSheet("QMainWindow {background-color:rgb(81,126,156)}")
-        # MainWindow.setStyleSheet("QMainWindow {background-color:rgb(193,220,240)}")        
+        MainWindow.setWindowIcon(icon)    
         MainWindow.setStyleSheet("QMainWindow {background-color:rgb(4,59,90)}")
         MainWindow.setWindowOpacity(0.93)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -79,8 +77,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
         self.listWidget.setStyleSheet("QListWidget{color:white;background-color:rgb(1,1,1);font-size: 14px;font-weight: bold;border-style: outset;border-width: .5px;border-radius: 4px;border-color: black;}"
         )
-        # self.listWidget.setBackgroundRole('blue')
-        # rgb(28, 162, 240)
+        
         self.pushButton.setStyleSheet("QPushButton {background:blue;padding: 2px;text-align:center;background-color: rgb(38,176,150);font-size: 10pt;color:white;font-weight: bold;border-style: outset;border-width: .5px;border-radius: 4px;border-color: black;}"
             "QPushButton:hover {background-color:rgb(0, 255, 212);font-size: 10pt;font-weight: bold;color:white}"
             "QPushButton:pressed {background-color:black;font-size: 10pt;font-weight: bold;color:white}"
