@@ -49,7 +49,7 @@ Face_recognition_MLP/
 It requires Python 3.6 or higher, check your Python version first.
 
 The [requirements.txt](requirements.txt) should list and install all the required Python 
-libraries that the Master Table depend on, and they can be installed using:
+libraries that process depend on, and they can be installed using:
 
 `pip install -r requirements.txt`
 
